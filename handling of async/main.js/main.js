@@ -10,9 +10,8 @@ import { useCallback, useEffect } from "react";
  
   useEffect(() => {
     const dataPromise = fetchData();
-	// Do something with the data promise
+
 	return () => {
-  	// Cancel the data promise
 	};
   }, [fetchData]);
    return <div>My Component</div>;
